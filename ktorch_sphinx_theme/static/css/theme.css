@@ -10021,7 +10021,7 @@ pre {
 }
 
 .footer-logo {
-  background-image: url("../images/logo-icon.svg");
+  /*background-image: url("../images/logo-icon.svg");*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: 20px 24px;

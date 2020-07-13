@@ -93,32 +93,6 @@
             <a href="{{ theme_variables.external_urls['get_started'] }}">Get Started</a>
           </li>
 
-          <li>
-            <div class="ecosystem-dropdown">
-              <a id="dropdownMenuButton" data-toggle="ecosystem-dropdown">
-                Ecosystem
-              </a>
-              <div class="ecosystem-dropdown-menu">
-                <a class="nav-dropdown-item" href="{{ theme_variables.external_urls['hub'] }}"">
-                  <span class=dropdown-title>Models (Beta)</span>
-                  <p>Discover, publish, and reuse pre-trained models</p>
-                </a>
-                <a class="nav-dropdown-item" href="{{ theme_variables.external_urls['ecosystem'] }}">
-                  <span class=dropdown-title>Tools & Libraries</span>
-                  <p>Explore the ecosystem of tools and libraries</p>
-                </a>
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <a href="{{ theme_variables.external_urls['mobile'] }}">Mobile</a>
-          </li>
-
-          <li>
-            <a href="{{ theme_variables.external_urls['blog'] }}">Blog</a>
-          </li>
-
           <li {%- if theme_pytorch_project == 'tutorials' %} class="active"{% endif %}>
             <a href="{{ theme_variables.external_urls['tutorials'] }}">Tutorials</a>
           </li>
@@ -417,11 +391,6 @@
             </li>
           </ul>
 
-          <div class="footer-social-icons">
-            <a href="{{ theme_variables.external_urls['facebook'] }}" target="_blank" class="facebook"></a>
-            <a href="{{ theme_variables.external_urls['twitter'] }}" target="_blank" class="twitter"></a>
-            <a href="{{ theme_variables.external_urls['youtube'] }}" target="_blank" class="youtube"></a>
-          </div>
         </div>
       </div>
     </div>

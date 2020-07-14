@@ -9724,6 +9724,7 @@ pre {
   height: 23px;
   width: 93px;
   /* background-image: url("../images/logo.svg"); */
+  background-image: none;
   background-repeat: no-repeat;
   background-size: 93px 23px;
   display: block;
@@ -10022,6 +10023,7 @@ pre {
 
 .footer-logo {
   /*background-image: url("../images/logo-icon.svg");*/
+  background-image: none;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 20px 24px;

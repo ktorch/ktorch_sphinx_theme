@@ -10313,7 +10313,8 @@ ul.pytorch-breadcrumbs a {
 }
 
 .tutorials-header .header-logo {
-  background-image: url("../images/logo-dark.svg");
+  /* background-image: url("../images/logo-dark.svg"); */
+  background-image: none;
 }
 .tutorials-header .main-menu ul li a {
   color: #262626;

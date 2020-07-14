@@ -9723,7 +9723,7 @@ pre {
 .header-logo {
   height: 23px;
   width: 93px;
-  /* background-image: url("../images/logo.svg"); */
+  background-image: url("../images/logo-dark.svg"); */
   background-image: none;
   background-repeat: no-repeat;
   background-size: 93px 23px;
@@ -10314,7 +10314,6 @@ ul.pytorch-breadcrumbs a {
 
 .tutorials-header .header-logo {
   background-image: url("../images/logo-dark.svg");
-  /* background-image: none; */
 }
 .tutorials-header .main-menu ul li a {
   color: #262626;

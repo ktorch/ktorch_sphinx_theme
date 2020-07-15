@@ -350,6 +350,14 @@
     <div class="mobile-main-menu-links-container">
       <div class="main-menu">
         <ul>
+          <li {%- if theme_pytorch_project == 'docs' %} class="active"{%- endif %}>
+            <a href="{{ theme_variables.external_urls['docs'] }}">Docs</a>
+          </li>
+
+          <li>
+            <a href="{{ theme_variables.external_urls['github'] }}">Github</a>
+          </li>
+
           <li>
             <a href="{{ theme_variables.external_urls['get_started'] }}">Get Started</a>
           </li>
@@ -378,16 +386,8 @@
             <a href="{{ theme_variables.external_urls['tutorials'] }}">Tutorials</a>
           </li>
 
-          <li {%- if theme_pytorch_project == 'docs' %} class="active"{%- endif %}>
-            <a href="{{ theme_variables.external_urls['docs'] }}">Docs</a>
-          </li>
-
           <li>
             <a href="{{ theme_variables.external_urls['resources'] }}">Resources</a>
-          </li>
-
-          <li>
-            <a href="{{ theme_variables.external_urls['github'] }}">Github</a>
           </li>
         </ul>
       </div>

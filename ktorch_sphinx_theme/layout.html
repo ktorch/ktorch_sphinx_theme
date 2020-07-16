@@ -331,8 +331,6 @@
     </div>
   </footer>
 
-  {% include "cookie_banner.html" %}
-
   <!-- End Footer -->
 
   <!-- Begin Mobile Menu -->
@@ -364,18 +362,6 @@
 
           <li>
             <a href="{{ theme_variables.external_urls['features'] }}">Features</a>
-          </li>
-
-          <li>
-            <a href="{{ theme_variables.external_urls['ecosystem'] }}">Ecosystem</a>
-          </li>
-
-          <li>
-            <a href="{{ theme_variables.external_urls['hub'] }}">PyTorch Hub</a>
-          </li>
-
-          <li>
-            <a href="{{ theme_variables.external_urls['blog'] }}">Blog</a>
           </li>
 
           <li {%- if theme_pytorch_project == 'tutorials' %} class="active"{%- endif %}>

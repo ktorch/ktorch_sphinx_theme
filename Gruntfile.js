@@ -138,7 +138,7 @@ module.exports = function(grunt) {
         options: {
           external: ['jquery'],
           alias: {
-            'pytorch-sphinx-theme': './js/theme.js'
+            'ktorch-sphinx-theme': './js/theme.js'
           }
         },
         src: ['js/*.js'],
@@ -148,7 +148,7 @@ module.exports = function(grunt) {
         options: {
           external: ['jquery'],
           alias: {
-            'pytorch-sphinx-theme': './js/theme.js'
+            'ktorch-sphinx-theme': './js/theme.js'
           }
         },
         src: ['js/*.js'],
